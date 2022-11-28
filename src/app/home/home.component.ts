@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   //Slider settings
-  slideConfig = {"slidesToShow": 1, "slidesToScroll": 1} ;
+  slideConfig = { autoplay: true, "slidesToShow": 1, "slidesToScroll": 1} ;
   constructor() { }
 
   ngOnInit(): void {
