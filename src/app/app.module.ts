@@ -12,6 +12,7 @@ import { CartComponent } from './cart/cart.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { OurteamComponent } from './ourteam/ourteam.component';
+import { AgricultureComponent } from './agriculture/agriculture.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { OurteamComponent } from './ourteam/ourteam.component';
     CartComponent,
     AboutusComponent,
     ContactusComponent,
-    OurteamComponent
+    OurteamComponent,
+    AgricultureComponent
   ],
   imports: [
     BrowserModule,

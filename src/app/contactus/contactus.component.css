@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+  }
+  
+    
+  /* Style the container/contact section */
+  .containercontact {
+    border-radius: 5px;
+    background-color: lightskyblue;
+    border-radius:20px;
+    padding: 20px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 53%;
+    border-radius:30px;
+    background-color: white;
+    padding: 20px;
+  }
+  .column1 {
+    float: left;
+    width: 47%;
+    border-radius:30px;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* Style all font awesome icons */
+.fa {
+  padding: 4px;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-whatsapp {
+  background: green;
+  color: white;
+}
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
